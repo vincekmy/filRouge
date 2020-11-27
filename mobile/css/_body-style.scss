@@ -1,0 +1,201 @@
+/* font family */
+$font-paraf: 'Prompt', sans-serif;
+$font-title: 'Comfortaa', cursive;
+
+
+body{
+    height: auto;
+    width: 100%;
+}
+
+
+
+    #competences{
+        text-align: center;
+        
+    .comp{
+        text-align: center;
+        float: center;
+        font-family: $font-title;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .text_outil{
+        text-align: center;
+        font-family: $font-paraf;
+        font-size: 17px;
+        padding-bottom: 30px;
+
+    }
+}
+
+
+
+.About{
+        
+    width: 100%;
+    height: 255px;
+    margin: 20px 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+   
+    .bonjour{
+        text-align: center;
+        padding: 20px;
+        font-family: $font-title;
+        
+    }
+    .vincecrea{
+        opacity: 0.1;
+        position: absolute;
+        width: 100%;
+        height: 255px;
+     
+    }
+    .p1{
+        padding: 0px 16px 10px 16px;   
+        font-family: $font-paraf; 
+        font-size: 15px;
+        text-align: center;
+    } 
+}
+
+.creation{
+    font-size: 32px;
+    font-family: $font-title;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sous-titre{
+    font-size: 15px;
+    font-family: $font-title;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      
+    .lien{
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        height: 220px;
+    }
+    .screen{
+        width: 80%;
+        height: 70%;
+        margin: 10px;
+        padding: 15px;
+        border: 5px solid black;
+        border-radius: 4px;
+        box-shadow: 3px 5px 3px grey;
+    }
+}
+@media screen and (max-width: 360px){
+    .About{
+        height: auto;
+        background-color: rgb(213, 212, 212);
+
+        .vincecrea{
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+.About{
+    height: 355px;
+    
+    .vincecrea{
+        height: 355px;
+    }
+    
+    .bonjour{
+        font-size: 26px;
+        padding-bottom: 40px;
+    }
+
+    .p1{
+        font-size: 20px;
+        text-align: center;
+
+    }
+}
+.creation{
+    font-size: 32px;
+    font-family: $font-title;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sous-titre{
+    font-size: 15px;
+    font-family: $font-title;
+    font-weight: bold;
+}
+
+    .lien{
+        width: 80% !important;
+        height: 370px !important;
+    }    
+    .screen{
+        width: 90%!important;
+        height: 80%!important;
+        padding: 15px!important;
+        margin-top: 15px!important;
+    }
+    .sous-titre{
+        padding-top: 30px;
+    }
+   
+}
+
+
+@media screen and (min-width: 1025px){
+    
+    #competences{
+        text-align: center;
+        height: 300px;
+        padding-top: 50px;
+    }
+    .About{
+        height: 555px;
+        
+        .vincecrea{
+            height: 555px;
+        }
+        .bonjour{
+            font-size: 36px;
+            padding-bottom: 50px;
+            padding-top: 30px;
+        }
+    
+        .p1{
+            font-size: 20px;
+            text-align: left;
+            width: 50%;
+            padding-left: 40px;
+            padding-top: 50px;
+    
+        }
+    }
+    .lien{
+        list-style-type: none;
+        text-align: center;
+        width: 100%!important;
+        height: 680px!important;
+        padding-bottom: 30px;
+    }
+    .screen{
+        width: 80%!important;
+        height: 90%!important;
+        margin: 10px!important;
+        padding: 15px;
+        border: 5px solid black;
+        border-radius: 4px;
+        box-shadow: 3px 5px 3px grey;
+    }
+    
+}

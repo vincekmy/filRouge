@@ -1,0 +1,43 @@
+
+/* font family */
+$font-title: 'Comfortaa', cursive;
+$font-paraf: 'Prompt', sans-serif;
+
+/* color font */
+$color-titre: white;
+
+
+header{
+    background: #000;
+    height: 250px;
+    width: 100%;
+    h1{
+        color: $color-titre;
+        font-family: $font-title;
+        text-shadow: 1px 2px #808080;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 57px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and(max-width: 320px){
+
+    h1{
+        font-size: 30px !important;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+        h1{
+            font-size: 70px !important;
+        }
+}
+
+
+@media screen and (min-width: 1025px){
+
+}

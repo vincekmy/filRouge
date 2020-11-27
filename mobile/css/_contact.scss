@@ -1,0 +1,59 @@
+$font-paraf: 'Prompt', sans-serif;
+
+
+
+#label{
+    padding: 15px;
+    .labelOne{
+        color: rgb(125, 125, 125);
+    }
+    .form-control{
+        box-shadow: 1px 1px black;
+    }
+}
+#message{
+    padding: 15px;
+    .message{
+        color: rgb(125, 125, 125);
+    }
+}
+#bouton{
+    padding: 15px !important;
+}
+#status{
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px !important;
+}
+.button_container{
+    width: 80px;
+    height: 20px;
+    border: 2px solid blue;
+    border-radius: 2px 2px grey;
+    color: black;
+    .button-popup{
+        color: black;
+    }
+}
+#popup{
+    background-color: rgb(225, 221, 221);
+    border: 2px solid rgb(85, 85, 85);
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: -800px;
+    left: 35%;
+    opacity: 0.9;
+    
+
+    h1{
+        text-align: center;
+        font-family: $font-paraf;
+        padding-top: 30px;
+    }
+    h3{
+        text-align: center;
+        font-family: $font-paraf;
+        font-weight: bold;
+    }
+}
